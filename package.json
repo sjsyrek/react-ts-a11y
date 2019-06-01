@@ -1,0 +1,44 @@
+{
+  "name": "react-accessible-accordion",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://stereobooster.github.io/react-accessible-accordion",
+  "dependencies": {
+    "nanoid": "^2.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "yarn test:e2e && yarn test:unit",
+    "test:unit": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "cypress-run": "cypress run",
+    "test:e2e": "start-server-and-test start http://localhost:3000 cypress-run"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-scripts": "3.0.1",
+    "cypress": "^3.3.1",
+    "cypress-plugin-tab": "^1.0.1",
+    "gh-pages": "^2.0.1",
+    "start-server-and-test": "^1.9.1"
+  }
+}
