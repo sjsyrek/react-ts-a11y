@@ -1,54 +1,69 @@
-# Accessible React tabs component
+<h1 align="center">Welcome to react-ts-a11y 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D6.9.0-blue.svg" />
+  <img src="https://img.shields.io/badge/node-%3E%3D12.5.0-blue.svg" />
+  <img src="https://img.shields.io/badge/yarn-%3E1.16.0-blue.svg" />
+  <a href="https://github.com/sjsyrek/react-ts-a11y#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/sjsyrek/react-ts-a11y/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/sjsyrek/react-ts-a11y/blob/master/LICENSE">
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" target="_blank" />
+  </a>
+</p>
 
-Read the blog post about this repo [here]().
+> Accessible React components written in TypeScript
 
-## Accessibility
+_Thanks to [@stereobooster](https://github.com/stereobooster) for the inspiration!_
 
-Component is implemented according to [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices/examples/tabs/tabs-1/tabs.html).
+### 🏠 [Homepage](https://github.com/sjsyrek/react-ts-a11y#readme)
 
-Keyboard Support:
+## Prerequisites
 
-- <kbd>Tab</kbd>
-  - When focus moves into the tab list, places focus on the active tab element.
-  - When the tab list contains the focus, moves focus to the next element in the tab sequence, which is the tabpanel element.
-- <kbd>Right Arrow</kbd>
-  - Moves focus to the next tab.
-  - If focus is on the last tab, moves focus to the first tab.
-  - Activates the newly focused tab.
-- <kbd>Left Arrow</kbd>
-  - Moves focus to the previous tab.
-  - If focus is on the first tab, moves focus to the last tab.
-  - Activates the newly focused tab.
-- <kbd>Home</kbd>
-  - Moves focus to the first tab and activates it.
-- <kbd>End</kbd>
-  - Moves focus to the last tab and activates it.
-- <kbd>Delete</kbd>
-  - When focus is on the tab, removes the tab from the tab list and places focus on the previous tab.
+- npm &gt;=6.9.0
+- node &gt;=12.5.0
+- yarn &gt;1.16.0
 
-## Example of Usage
+## Install
 
-```js
-```
-
-## Development
-
-```
+```sh
 yarn
-# start dev server
+```
+
+## Usage
+
+```sh
 yarn start
-# (in other terminal) open cypress to debug
-yarn cypress open
 ```
 
-To run tests:
+## Run tests
 
-```
+```sh
 yarn test
 ```
 
-## Improvements
+## Author
 
-- Add test suite for clicks
-- Add test suite for insert functionality (<kbd>Enter</kbd>?)
-- Add test suite for edge cases
+👤 **Steven J. Syrek**
+
+- Github: [@sjsyrek](https://github.com/sjsyrek)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/sjsyrek/react-ts-a11y/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2019 [Steven J. Syrek](https://github.com/sjsyrek).<br />
+This project is [ISC](https://github.com/sjsyrek/react-ts-a11y/blob/master/LICENSE) licensed.
+
+---
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
