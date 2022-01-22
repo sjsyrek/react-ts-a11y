@@ -18,7 +18,7 @@
     "yarn": ">1.16.0"
   },
   "dependencies": {
-    "nanoid": "^2.0.3",
+    "nanoid": "^3.1.31",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
